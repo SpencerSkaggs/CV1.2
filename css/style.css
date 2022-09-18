@@ -1,0 +1,129 @@
+.button{
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+#leftStar{
+    float: left;
+}
+
+#rightStar {
+    float: right;
+}
+
+.title {
+    column-count:3;
+    border: 5px outset beige;
+    background-color: black;
+    text-align: center;
+    color: beige;
+}
+#profilePicture {
+    border-radius: 50%;
+}
+
+.top {
+    border: 5px outset beige;
+    background-color: beige;
+    text-align:center;
+    color:black;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.titleImage{
+    border-radius:"50%";
+}
+
+
+.languages {
+    column-count: 3;
+    border: 5px outset beige;
+    background-color: beige;
+    text-align:center;
+    color:black;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.skills {
+    column-count: 2;
+    border: 5px outset beige;
+    background-color: beige;
+    text-align:center;
+    color:black;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.end {
+    border: 5px outset beige;
+    background-color: black;
+    text-align: center;
+    color: beige;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.contactButton{
+    background-color: beige;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align:center;
+    font-size: 12px;
+    font-family:'Space Mono', monospace;
+    cursor: pointer;
+}
+
+name {
+    font-family: 'Press Start 2p', cursive;
+    text-align:center;
+    padding-top:15px;
+    font-size: 30px;
+}
+
+h1{
+    font-family: 'Press Start 2p', cursive;
+    text-align:center;
+    font-size:20px;
+}
+
+h2{
+    font-family: 'Space Mono', monospace;
+    font-size:15px;
+}
+
+h3{
+    font-family: 'Space Mono', monospace;
+    font-size:15px;
+}
+
+h4{
+    font-family: 'Space Mono', monospace;
+    font-size:15px;
+}
+a:link {
+    text-decoration: none;
+    color:black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color:grey;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color:black;
+  }
