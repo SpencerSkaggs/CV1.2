@@ -9,11 +9,18 @@
 </head>
 <style>
   .mySlides {display:none;}
+  @media all and (max-width: 767px) {
+    .w3-top {
+      
+    }
+  }
 </style>
 
 <body>
 
-<!-- Navbar (sit on top) -->
+<!-- Navbar (sit on top)
+Check us out on facebook 
+remove title -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
     <a href="#home" class="w3-bar-item w3-button"><b>S.S.</b> Construction</a>
@@ -28,18 +35,14 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:100%; max-height:10%;" id="home">
-  <div class="w3-content w3-section" style="max-width:100%;">
-    <img class="mySlides" src="samplePictures/commercial1.jpeg" style="width:100%">
-    <img class="mySlides" src="samplePictures/framing1.jpeg" style="width:100%">
-    <img class="mySlides" src="samplePictures/kell1.jpeg" style="width:100%">
-    <img class="mySlides" src="samplePictures/kell2.jpeg" style="width:100%">
-    <img class="mySlides" src="samplePictures/kell3.jpeg" style="width:100%">
 
+    <img class="mySlides" src="samplePictures/kell1.jpeg" style="width:100%; height:900px">
+    <img class="mySlides" src="samplePictures/kell7.jpeg" style="width:100%; height:900px">
+    <img class="mySlides" src="samplePictures/kell5.jpeg" style="width:100%; height:900px">
+    <img class="mySlides" src="samplePictures/kell4.jpeg" style="width:100%; height:900px">
+    <img class="mySlides" src="samplePictures/residential1.jpeg" style="width:100%; height:900px">
   </div>
-  
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>S.S.</b></span> <span class="w3-hide-small w3-text-light-grey">Construction</span></h1>
-  </div>
+
 </header>
 
 <!-- Page content -->
@@ -51,28 +54,22 @@
   </div>
 
   <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l4 m4 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Commercial</div>
         <img src="samplePictures/commercial1.jpeg" alt="House" style="width:200px; height:100px;">
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l4 m4 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Commercial</div>
+        <div class="w3-display-topleft w3-black w3-padding">Steel Bulding</div>
         <img src="samplePictures/kell4.jpeg" alt="House" style="width:200px; height:100px;">
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l4 m4 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Residential</div>
         <img src="samplePictures/residential1.jpeg" alt="House" style="width:200px; height:100px;">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"></div>
-        <img src="samplePictures/framing1.jpeg" alt="House" style="width:200px; height:100px;">
       </div>
     </div>
   </div>
@@ -89,18 +86,14 @@
 
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m1 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%;">
       <h3>Sean Swearingen</h3>
-      <p class="w3-opacity">Owner</p>
       <p>478-288-0557</p>
 
       
     </div>
 
     <div class="w3-col m1 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
       <h3>Kell Kiker</h3>
-      <p class="w3-opacity">Owner</p>
       <p>706-669-1926</p>
       
     </div>
@@ -110,7 +103,7 @@
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
     <p>Lets get in touch and talk about your next project.</p>
-    <form action="/action_page.php" target="_blank">
+    <form action="https://formsubmit.co/ssconstructioncontactemail@gmail.com " method="POST">
       <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
@@ -153,7 +146,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, 3000); // Change image every 2 seconds
 }
 
 
