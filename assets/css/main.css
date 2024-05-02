@@ -1,12 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
+/* Genpage Tags */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1669,7 +1664,7 @@ input, select, textarea {
 		.skills{
 			font-weight:bold;
 			text-align: right;
-			color: black;
+			color: #1b1f22;
 			font-family: "Source Sans Pro", sans-serif;
 		}
 		.skill80{
@@ -1681,3 +1676,14 @@ input, select, textarea {
 		.skill60{
 			width:60%; background-color: burlywood;
 		}
+		.grid-container {
+			display: grid;
+			column-gap: 25px;
+			row-gap: 25px;
+			grid-template-columns: auto auto auto;
+		}
+		.grid-item {
+			font-size:30px;
+			text-align:center;
+		}
+		
